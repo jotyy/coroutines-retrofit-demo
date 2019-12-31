@@ -1,4 +1,4 @@
-package top.jotyy.coroutines_retrofit_demo
+package top.jotyy.repository
 
 import org.junit.Test
 
