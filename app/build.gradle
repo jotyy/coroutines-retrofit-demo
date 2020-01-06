@@ -7,7 +7,7 @@ apply from: "$rootProject.projectDir/buildsystem/sources.gradle"
 
 android {
     defaultConfig {
-        applicationId "top.jotyy.coroutines_retrofit_demo"
+        applicationId "top.jotyy.coroutines_retrodit_demo"
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -22,6 +22,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation project(':core')
+    implementation project(':features:login')
 
     implementation libraries.navigation
 
@@ -30,6 +31,7 @@ dependencies {
     androidTestImplementation testLibraries.espresso
 
     // These libraries required by dagger to create dependency graph, but not by app
+    compileOnly project(':repository')
     compileOnly libraries.retrofit
     compileOnly libraries.room
     compileOnly libraries.paging

@@ -1,7 +1,7 @@
-package top.jotyy.coroutines_retrofit_demo
+package top.jotyy.login
 
 import androidx.test.platform.app.InstrumentationRegistry
-import androidx.test.runner.AndroidJUnit4
+import androidx.test.ext.junit.runners.AndroidJUnit4
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("top.jotyy.coroutines_retrofit_demo", appContext.packageName)
+        assertEquals("top.jotyy.login.test", appContext.packageName)
     }
 }

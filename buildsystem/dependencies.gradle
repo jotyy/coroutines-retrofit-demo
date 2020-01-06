@@ -18,7 +18,7 @@ ext {
             swipeRefreshLayoutVersion: "1.1.0-alpha02",
             collectionVersion        : "1.1.0",
             roomVersion              : "2.2.0-rc01",
-            daggerVersion            : "2.25",
+            daggerVersion            : "2.24",
             okHttpVersion            : "4.0.1",
             retrofitVersion          : "2.6.1",
             picassoVersion           : "2.71828",
